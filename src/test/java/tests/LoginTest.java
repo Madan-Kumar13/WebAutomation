@@ -17,7 +17,7 @@ public class LoginTest extends BaseTest {
         loginPage.enterPassword("secret_sauce");
         Thread.sleep(3000);
         loginPage.clickLogin();
-        Thread.sleep(3000);
+
         String actualTitle = driver.getTitle();
         System.out.println("Title: " + actualTitle);
 
